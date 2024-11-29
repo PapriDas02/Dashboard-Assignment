@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassPad Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="classPad-RndM9Xpn.png" alt="ClassPad Logo">
+                <h2>ClassPad</h2>
+            </div>
+            <button class="add-new">+ Add New</button>
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-sliders"></i> Dashboard</li>
+                    <li><i class="fa-solid fa-calendar-day"></i> Incoming Lesson</li>
+                    <li><i class="fa-solid fa-user-group"></i> Groups</li>
+                    <li><i class="fa-solid fa-book-open"></i> Materials</li>
+                    <li><i class="fa-solid fa-graduation-cap"></i> Semester</li>
+                    <li><i class="fa-solid fa-envelope"></i> Inbox <span class="badge">5</span></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <p>Papri Das</p>
+                <p>Student</p>
+                <button class="logout">Logout</button>
+            </div>
+        </aside>
+
+        <main>
+            <header class="main-header">
+                <h1>Dashboard</h1>
+            </header>
+
+            <section class="lessons">
+                <h2>Incoming Lesson</h2>
+                <h3>Monday</h3>
+                <div class="lesson">
+                    <div>
+                        <p><i class="fa-solid fa-calendar-plus"></i> <b>2:00 PM - 3:30 PM</b></p>
+                        <p>React - 6th Batch</p>
+                    </div>
+                    <p><i class="fa-solid fa-circle fa-2xs"></i> Lesson 30</p>
+                    <a href="#">Zoom</a>
+                </div>
+                <h3>Tuesday</h3>
+                <div class="lesson">
+                    <div>
+                        <p><i class="fa-solid fa-calendar-plus"></i> <b>2:00 PM - 3:30 PM</b></p>
+                        <p>React - 6th Batch</p>
+                    </div>
+                    <p><i class="fa-solid fa-circle fa-2xs"></i> Lesson 30</p>
+                    <a href="#">Zoom</a>
+                </div>
+            </section>
+
+            <section class="materials">
+                <h2>Materials</h2>
+                <div class="material-card">
+                    <h3>Routine</h3>
+                    <p>This is our Routine</p>
+                    <img src="routine-cjz21ZBk.png" alt="Routine Image">
+                </div>
+                <div class="material-card">
+                    <h3>Syllabus</h3>
+                    <p>This is our syllabus</p>
+                    <img src="syllabus-BrIKkBHR.png" alt="Syllabus Image">
+                </div>
+                <div class="material-card">
+                    <h3>Short Note</h3>
+                    <p>This is our short note</p>
+                    <img src="short-note-j2dNpZrA.png" alt="Short Note Image">
+                </div>
+            </section>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="semester-progress">
+                <h3>Semester Progress</h3>
+                <p>Lesson Progress: <strong>29/30</strong></p>
+                <p>Next Lesson in <strong>7 days</strong></p>
+            </div>
+            <div class="groups">
+                <h3>Groups</h3>
+                <div class="group">
+                    <p>22nd Batch</p>
+                    <p>No of Students: 20</p>
+                </div>
+                <div class="group">
+                    <p>23rd Batch</p>
+                    <button>Send Message</button>
+                </div>
+                <div class="group">
+                    <p>24th Batch</p>
+                    <p>No of Students: 20</p>
+                </div>
+            </div>
+            <div class="inbox">
+                <h3>Inbox</h3>
+                <div class="message">
+                    <p><b>Papri Das</b> <span>Online</span></p>
+                    <p>Hi, this is a message.</p>
+                </div>
+                <div class="message">
+                    <p><b>Papri das</b> <span>Offline</span></p>
+                    <p>Hi, this is another message.</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
